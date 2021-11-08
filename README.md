@@ -1,0 +1,1 @@
+Simple etch-a-sketch project to improve DOM manipulation skills.

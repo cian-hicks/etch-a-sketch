@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: grey;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    font-family: Georgia, sans-serif;
+    font-size: 3em;
+    letter-spacing: -2px;
+}
+
+#main-container {
+    border: solid black 3px;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 15px;
+    width: 15px;
+}
+
+.gridSquare{
+    display: flex;
+    flex-direction: row;
+    border: solid black 1px;
+    height: 15px;
+    width: 15px;
+}
+
+.button {
+    position: absolute;
+    right: 47%;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: solid black 3px;
+}
