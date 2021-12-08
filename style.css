@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     height: 100%;
-    background-color: grey;
+    background-color: black;
 }
 
 .header {
@@ -11,36 +11,50 @@ html, body {
     font-family: Georgia, sans-serif;
     font-size: 3em;
     letter-spacing: -2px;
+    color: red;
 }
 
 #main-container {
-    border: solid black 3px;
+    display: flex;
+    justify-content: left;
     position: relative;
     margin: auto;
-    margin-top: 3%;
+    margin-top: 4%;
+    height: 900px;
+    width: 900px;
+    border: solid purple 5px;
+    background-color: orange;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 15px;
-    width: 15px;
+    height: 900px;
+    width: 900px;
 }
 
 .gridSquare{
     display: flex;
     flex-direction: row;
-    border: solid black 1px;
-    height: 15px;
-    width: 15px;
+    background-color: white;
+    border: solid grey 1px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
 }
 
 .button {
-    position: absolute;
-    right: 47%;
     background-color: red;
-    border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -49,5 +63,12 @@ html, body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border: solid black 3px;
+    border: solid darkred 3px;
+    border-radius: 5%;
+}
+
+footer {
+    color: white;
+    border: solid red 2px;
+    text-align: center;
 }
